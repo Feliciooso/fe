@@ -130,9 +130,46 @@ nav ul li a:hover {
   flex-direction: row;
 }
 #about-me-text {
+  margin-bottom: -5rem;
   text-align: left;
 }
 #about-me-header {
   padding-left: 9rem;
   text-align: left;
+}
+.circular-button {
+  margin-top: -4rem;
+  margin-left: 9rem;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px; /* Adjust the border-radius to control the roundness */
+  background-color: #6c499b; /* Set your desired background color */
+  color: white;
+  text-align: center;
+  line-height: 40px; /* Vertically centers the text */
+  cursor: pointer; /* Change cursor on hover for better user experience */
+}
+
+.rounded-square-button:hover {
+  background-color: #2ecc71; /* Change color on hover */
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+#kotak-kecil {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  flex-direction: row;
+}
+#kiri-kecil {
+  margin-left: 10rem;
+}
+#kanan-kecil {
+  margin-left: 20rem;
+}
+
+.enter {
+  margin-top: 10px;
 }
